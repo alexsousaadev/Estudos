@@ -14,7 +14,7 @@ Eu configurei o Git em meu computador, criando um repositorio no Github, e criei
 
 ## Chave SSH
 
-O que fica comigo é a chave privada do projeto e o no git fica uma especie de chave publica para podermos entrar e sair do projeto, mas fica vinculada la para eu poder manusear o projeto com mais facilidade e com esta chave somente que da pra acessar o projeto, por isso ela nao pode ser divulgada ou compartilhada com ninguem.
+O que fica comigo é a chave privada do projeto e o no git fica uma especie de chave publica para podermos entrar e sair do projeto, mas fica vinculada la para eu poder manusear o projeto com mais facilidade e com esta chave somente que da pra acessar o projeto, chave privada nao pode ser divulgada ou compartilhada com ninguem.
 
 ## O ciclo do dia a dia
 
@@ -24,7 +24,7 @@ git add ele prepara o arquivo que esta sendo utlizado para o commit, git commit 
 
 - git add - ele prepara o arquivo para o commit
 - git push - ele manda as coisas para o github no meu repositorio
-- git commit apos o commit ele grava a versão no github
+- git commit apos o commit ele grava a versão no meu computador e somente o git push puxa a versão para o github
 - git remote add origin ele registra diretamente o endereço do repositorio, falando pra ele a onde esta o repositorio 
 - git status apresenta os status do meu repositorio e dos commits
 - git init criou o arquivo oculto que nao pode ser apagado do projeto contendo o historico do projeto
